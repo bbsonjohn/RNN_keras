@@ -18,7 +18,7 @@ In the following figure we also shows the structure of the attention block. Basi
 
 <img src="figures/attention.png" width=100%>
 
-Once again, we train the model using Adam optimizer. In the sample file, we did not train the parameters to the model full potential to save the computation time, i.e. the loss is still steadily dropping towards the final epoch. 
+Once again, we train the model using Adam optimizer. In the sample file, we did not train the parameters to the model full potential to save the computation time, i.e. the loss is still steadily dropping towards the final epoches. 
 
 <img src="figures/train.png" width=100%>
 
