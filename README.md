@@ -24,12 +24,16 @@ Once again, we train the model using Adam optimizer. In the sample file, we did 
 
 <img src="figures/loss.png" width=40%>
 
-<hr><hr>
+<hr>
 
-On the second part of this file, 
+On the second part of this file, we train the network with the relatively simple RNN model, i.e. a unidirectional LSTM RNN with the same length between input and output sequences, Tx = Ty. We train the model by asking the model to predict the next word of a sentence given the previous word, and optimize the accuracy of the prediction.
 
 <img src="figures/RNNCell.png" width=30%>
 
+After training the parameters, we restructure the RNN such that it generates new sentences. We do so by the model below. We fit the output word of an RNN cell to the input of the next RNN cell. i.e. we ask the RNN to predict a new word at t based on its own prediction at t-1.  We initialize the sequence at t = 0 by some arbitrary word or a null word. This way the RNN can generate a sentence itself without reliance on external example except at initialization.
+
 <img src="figures/SeqSampling.png" width=80%>
+
+The resultant sentence generated from this sequence sampling procedure.
 
 <img src="figures/sample.png" width=100%>
