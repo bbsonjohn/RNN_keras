@@ -1,6 +1,6 @@
 # RNN_keras
 A recurrent neural network for natural language processing and sequence generation using Keras framework.
-We thanks **deeplearning.ai** for inspiring the program.
+We thank **deeplearning.ai** for inspiring the program.
 
 In this program, we carry out two tasks with Recurrent Neural Network (RNN): 1.) translate French sentences to English sentences; 2.) generate original English sentences by sequence sampling.
 
