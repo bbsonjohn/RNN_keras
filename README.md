@@ -6,7 +6,7 @@ Author: <a href="https://bbsonjohn.github.io">John Leung</a>
 
 Date: 2020
 
-<br>
+<hr>
 
 ## Feature:
 
