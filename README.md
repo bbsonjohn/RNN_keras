@@ -1,6 +1,6 @@
 # RNN_keras
 
-Project: Natural Language Processing using Recurrent Neural Network
+Project: Natural Language Processing Using Recurrent Neural Network
 
 Author: <a href="https://bbsonjohn.github.io">John Leung</a>
 
