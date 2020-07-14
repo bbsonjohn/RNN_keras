@@ -6,6 +6,8 @@ Author: <a href="https://bbsonjohn.github.io">John Leung</a>
 
 Date: 2020
 
+<br>
+
 ## Feature:
 
 A recurrent neural network for natural language processing and sequence generation using Keras framework.
