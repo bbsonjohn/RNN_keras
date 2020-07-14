@@ -1,4 +1,13 @@
 # RNN_keras
+
+Project: Natural Language Processing using Recurrent Neural Network
+
+Author: <a href="https://bbsonjohn.github.io">John Leung</a>
+
+Date: 2020
+
+## Feature:
+
 A recurrent neural network for natural language processing and sequence generation using Keras framework.
 We thank **deeplearning.ai** for inspiring the program.
 
